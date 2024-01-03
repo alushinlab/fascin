@@ -1,0 +1,15 @@
+train_networks/job014
+/home/greg/data_process/gui/scripts_for_gui/DAE_UNet_guiVersion.py --input_noise_dir /home/greg/data_process/fascin/particle_picking/../../../../../scratch/neural_network_training_sets/fascin_noise --input_noiseless_dir /home/greg/data_process/fascin/particle_picking/../../../../../scratch/neural_network_training_sets/fascin_noNoise --proj_dim 192 --numProjs 149999 --tv_split 90 --lr 5e-05 --patience 3 --epochs 30 --batch_size 16 --gpu_idx 2 --output_dir train_networks/job014/ 
+
+/home/greg/data_process/gui/scripts_for_gui/DAE_UNet_guiVersion.py
+--input_noise_dir	/home/greg/data_process/fascin/particle_picking/../../../../../scratch/neural_network_training_sets/fascin_noise
+--input_noiseless_dir	/home/greg/data_process/fascin/particle_picking/../../../../../scratch/neural_network_training_sets/fascin_noNoise
+--proj_dim	192
+--numProjs	149999
+--tv_split	90
+--lr	5e-05
+--patience	3
+--epochs	30
+--batch_size	16
+--gpu_idx	2
+--output_dir	train_networks/job014/

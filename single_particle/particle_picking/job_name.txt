@@ -1,0 +1,19 @@
+particle_picking/job045
+/home/greg/data_process/gui/scripts_for_gui/multiple_whole_micrograph_preds_bundle_aCat_guiVersion.py --semseg_net_dir /home/greg/data_process/fascin/particle_picking/train_networks/job017/semSeg_50ktrain_catCrossEnt_fig.h5 --binned_micro_dir '/home/greg/data_process/fascin/particle_picking/../Micrographs_bin4/*bin4.mrc' --hist_match_dir /home/greg/data_process/fascin/particle_picking/actin_rotated00000.mrc --increment 48 --box_size 192 --fudge_fac 0.9 --sq_size 96 --threshold 0.85 --gpu_idx 3 --occ_high 1.0 --occ_low 0.1 --radius 15 --innerbox 12 --occ_smallBox 0.8 --output_dir particle_picking/job045/ 
+
+/home/greg/data_process/gui/scripts_for_gui/multiple_whole_micrograph_preds_bundle_aCat_guiVersion.py
+--semseg_net_dir	/home/greg/data_process/fascin/particle_picking/train_networks/job017/semSeg_50ktrain_catCrossEnt_fig.h5
+--binned_micro_dir	'/home/greg/data_process/fascin/particle_picking/../Micrographs_bin4/*bin4.mrc'
+--hist_match_dir	/home/greg/data_process/fascin/particle_picking/actin_rotated00000.mrc
+--increment	48
+--box_size	192
+--fudge_fac	0.9
+--sq_size	96
+--threshold	0.85
+--gpu_idx	3
+--occ_high	1.0
+--occ_low	0.1
+--radius	15
+--innerbox	12
+--occ_smallBox	0.8
+--output_dir	particle_picking/job045/

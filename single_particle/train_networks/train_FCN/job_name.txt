@@ -1,0 +1,16 @@
+train_networks/job017
+/home/greg/data_process/gui/scripts_for_gui/train_FCN_for_semseg_guiVersion.py --input_noise_dir /home/greg/data_process/fascin/particle_picking/../../../../../scratch/neural_network_training_sets/fascin_noise --input_semseg_dir /home/greg/data_process/fascin/particle_picking/../../../../../scratch/neural_network_training_sets/fascin_semMaps --trained_DAE_path /home/greg/data_process/fascin/particle_picking/train_networks/job014/fig_300000training_tplastin_CCC00000.h5 --proj_dim 192 --numProjs 50000 --tv_split 90 --lr 5e-05 --patience 3 --epochs 30 --batch_size 16 --gpu_idx 0 --output_dir train_networks/job017/ 
+
+/home/greg/data_process/gui/scripts_for_gui/train_FCN_for_semseg_guiVersion.py
+--input_noise_dir	/home/greg/data_process/fascin/particle_picking/../../../../../scratch/neural_network_training_sets/fascin_noise
+--input_semseg_dir	/home/greg/data_process/fascin/particle_picking/../../../../../scratch/neural_network_training_sets/fascin_semMaps
+--trained_DAE_path	/home/greg/data_process/fascin/particle_picking/train_networks/job014/fig_300000training_tplastin_CCC00000.h5
+--proj_dim	192
+--numProjs	50000
+--tv_split	90
+--lr	5e-05
+--patience	3
+--epochs	30
+--batch_size	16
+--gpu_idx	0
+--output_dir	train_networks/job017/
