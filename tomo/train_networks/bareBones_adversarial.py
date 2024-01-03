@@ -267,7 +267,7 @@ noise_file_names = sorted(glob.glob(noise_folder+'*.mrc'))
 noNoise_file_names = sorted(glob.glob(noNoise_folder+'*.mrc'))
 
 # Location of real data for domain target transfer
-real_data_folder = '/rugpfs/fs0/cem/store/mreynolds/squiggle_cell_tomos/cryoCare_tomos_bin2/random_chunks/'
+real_data_folder = # PATH TO REAL DATA
 real_data_file_names_adv = sorted(glob.glob(real_data_folder+'*707*.mrc'))[:500]
 synth_data_file_names_adv = sorted(glob.glob(noise_folder+'*.mrc'))[:len(real_data_file_names_adv)]
 adv_labels = np.concatenate((np.ones(len(real_data_file_names_adv)),np.zeros(len(synth_data_file_names_adv))))
@@ -302,7 +302,7 @@ shared_layers.summary()
 dae_model.summary()
 disc_model.summary()
 
-pretrained_DAE_path = '/rugpfs/fs0/cem/store/mreynolds/squiggle_cell_tomos/testing_10p1Apix_cryoCare/40k_training_try1/cellTomo_tester_CCC_-0.9371_epoch_14.h5'
+pretrained_DAE_path = # PATH TO PRETRAINED DAE
 pretrained_DAE = keras.models.load_model(pretrained_DAE_path, custom_objects={'CCC':CCC})
 
 for i in range(0, len(shared_layers.layers)): # set to -5 for the actual discriminator
